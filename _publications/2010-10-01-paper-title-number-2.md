@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 permalink: /publication/2010-10-01-paper-title-number-2
 #excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
-date: 2025
+date: 2025-01-01
 venue: 'Quantitative Biology'
 #slidesurl: 'https://academicpages.github.io/files/slides2.pdf'
 paperurl: 'https://onlinelibrary.wiley.com/doi/full/10.1002/qub2.70006'
