@@ -8,22 +8,20 @@ affiliation: "Xiamen University"
 github: "htlbhj"
 google_scholar: "https://scholar.google.co.kr/citations?user=kFS6lBEAAAAJ&hl=en"
 url: "https://htlbhj.github.io"
-baseurl: "" # leave empty for user page
+baseurl: ""  # keep empty for user page
 
-# Build settings
+# Keep the rest of the template settings intact to avoid 404
 markdown: kramdown
 highlighter: rouge
 permalink: /:categories/:title/
 timezone: Asia/Shanghai
 
-# Plugins (keep original)
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-scholar
   - jekyll-seo-tag
 
-# Collections (keep original)
 collections:
   publications:
     output: true
@@ -38,7 +36,6 @@ collections:
     output: true
     permalink: /portfolio/:path/
 
-# Defaults (keep original)
 defaults:
   - scope:
       path: ""
@@ -61,12 +58,10 @@ defaults:
     values:
       layout: single
 
-# Scholar settings (keep original)
 scholar:
   style: apa
   locale: en
 
-# Exclude (keep original)
 exclude:
   - node_modules
   - vendor
