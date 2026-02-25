@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 permalink: /publication/2024-02-17-paper-title-number-4
 excerpt: ''
-date: 2025
+date: 2025-05-08
 venue: 'Quantitative Biology'
 paperurl: 'https://academicpages.github.io/files/paper3.pdf'
 citation: 'S. Mao, C. Zhang, R. Chen, S. Tang, X. Fan* & J. Hu*. Cell Lineage Tracing: methods, applications, and challenges. Quantitative Biology. 2025; Accepted.'
