@@ -10,3 +10,5 @@ venue: 'Quantitative Biology'
 paperurl: 'https://onlinelibrary.wiley.com/doi/full/10.1002/qub2.70006'
 citation: 'S. Mao, C. Zhang, R. Chen, S. Tang, X. Fan* & J. Hu*. Cell Lineage Tracing: methods, applications, and challenges. Quantitative Biology. 2025; 13(4): e70006.'
 ---
+
+Using [MathJax](https://www.mathjax.org/) in the description is supported - $$E=mc^2$$ - however, the use must be mindful that the default delimiters are `$$...$$` and `\\[...\\]` which differs from the `$...$` that is typically expected.
