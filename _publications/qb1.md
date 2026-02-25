@@ -1,6 +1,6 @@
 ---
 title: "Cell Lineage Tracing: methods, applications, and challenges"
-layout: publications
+collection: publications
 category: manuscripts
 permalink: /publication/2010-10-01-paper-title-number-2
 excerpt: ''
