@@ -1,9 +1,75 @@
+# Site settings
 title: "Jie Hu"
 name: "Jie Hu"
 position: "Associate Professor"
+description: "My research interests include biostatistics, Bayesian inference and statistical computing."
 email: "hujiechelsea@xmu.edu.cn"
 affiliation: "Xiamen University"
-bio: "My research interests include biostatistics, Bayesian inference and statistical computing."
 github: "htlbhj"
 google_scholar: "https://scholar.google.co.kr/citations?user=kFS6lBEAAAAJ&hl=en"
 url: "https://htlbhj.github.io"
+baseurl: "" # leave empty for user page
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:categories/:title/
+timezone: Asia/Shanghai
+
+# Plugins (keep original)
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-scholar
+  - jekyll-seo-tag
+
+# Collections (keep original)
+collections:
+  publications:
+    output: true
+    permalink: /publication/:path/
+  talks:
+    output: true
+    permalink: /talk/:path/
+  teaching:
+    output: true
+    permalink: /teaching/:path/
+  portfolio:
+    output: true
+    permalink: /portfolio/:path/
+
+# Defaults (keep original)
+defaults:
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: publication
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: talk
+  - scope:
+      path: ""
+      type: teaching
+    values:
+      layout: teaching
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+
+# Scholar settings (keep original)
+scholar:
+  style: apa
+  locale: en
+
+# Exclude (keep original)
+exclude:
+  - node_modules
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+  - README.md
