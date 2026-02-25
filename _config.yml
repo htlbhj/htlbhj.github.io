@@ -1,12 +1,84 @@
-title: "Jie Hu"
-name: "Jie Hu"
-position: "Associate Professor"
-email: "hujiechelsea@xmu.edu.cn"
+# Site Settings
+locale                   : "en-US"
+title                    : "Jie Hu"
+title_separator          : "-"
+name                     : "Jie Hu"
+description              : "My research interests include biostatistics, Bayesian inference and statistical computing."
+url                      : "https://htlbhj.github.io"
+baseurl                  : ""
+repository               : "htlbhj/htlbhj.github.io"
 
-affiliation: "Xiamen University"
+# Site Author
+author:
+  name             : "Jie Hu"
+  avatar           : "profile.png"
+  bio              : "Associate Professor at Xiamen University"
+  location         : "Xiamen, China"
+  employer         : "Xiamen University"
+  email            : "hujiechelsea@xmu.edu.cn"
+  github           : "htlbhj"
+  googlescholar    : "https://scholar.google.co.kr/citations?user=kFS6lBEAAAAJ&hl=en"
 
-bio: "My research interests include biostatistics, Bayesian inference and statistical computing."
+# Build Settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:categories/:title/
+timezone: Asia/Shanghai
 
-github: "htlbhj"
-google_scholar: "https://scholar.google.co.kr/citations?user=kFS6lBEAAAAJ&hl=en"
-url: "https://htlbhj.github.io"
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-scholar
+  - jekyll-seo-tag
+
+# Collections
+collections:
+  publications:
+    output: true
+    permalink: /publication/:path/
+  talks:
+    output: true
+    permalink: /talk/:path/
+  teaching:
+    output: true
+    permalink: /teaching/:path/
+  portfolio:
+    output: true
+    permalink: /portfolio/:path/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: publication
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: talk
+  - scope:
+      path: ""
+      type: teaching
+    values:
+      layout: teaching
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+
+# Scholar (for BibTeX support)
+scholar:
+  style: apa
+  locale: en
+
+# Exclude
+exclude:
+  - node_modules
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+  - README.md
