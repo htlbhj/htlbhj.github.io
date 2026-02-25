@@ -7,12 +7,3 @@ permalink: /teaching/2014-spring-teaching-1
 date: 2018-09-01
 #location: "City, Country"
 ---
-
-#Heading 1
-#======
-
-#Heading 2
-#======
-
-#Heading 3
-#======
