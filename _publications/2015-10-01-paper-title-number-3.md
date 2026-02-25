@@ -1,5 +1,5 @@
 ---
-title: "Paper Title Number 3"
+title: "Cell lineage tracing: Methods, applications, and challenges"
 collection: publications
 category: manuscripts
 permalink: /publication/2015-10-01-paper-title-number-3
