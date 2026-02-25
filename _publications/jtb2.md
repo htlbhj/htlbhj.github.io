@@ -1,5 +1,5 @@
 ---
-title: " Inferring Absolute Cell Numbers from Relative Proportion in Stochastic Models with Cell Plasticity"
+title: "Inferring Absolute Cell Numbers from Relative Proportion in Stochastic Models with Cell Plasticity"
 collection: publications
 category: manuscripts
 permalink: /publication/jtb2
