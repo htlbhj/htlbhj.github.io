@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 permalink: /publication/qb1
 excerpt: ''
-date: 2025
+date: 2025-05-08
 venue: 'Quantitative Biology'
 slidesurl: ''
 paperurl: 'https://onlinelibrary.wiley.com/doi/full/10.1002/qub2.70006'
