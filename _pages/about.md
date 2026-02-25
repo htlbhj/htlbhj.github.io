@@ -1,3 +1,9 @@
+---
+title: "About Me"
+layout: page
+permalink: /about/
+---
+
 I am an Associate Professor at Xiamen University.
 
 My research interests include:
