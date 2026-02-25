@@ -11,27 +11,16 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Statistics, The Chinese University of Hong Kong, 2015
+* B.S. in Statistics, Peking University, 2011
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Fall 2021: Associate Professor
+  * Xiamen University
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-
+* Fall 2015: Assistant Professor
+  * Xiamen University
 
 Publications
 ======
@@ -39,11 +28,8 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-  
 Teaching
 ======
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-* Currently signed in to 43 different slack teams
